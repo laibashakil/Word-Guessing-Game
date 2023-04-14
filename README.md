@@ -10,7 +10,7 @@ This is a simple command-line game where the player has to guess a randomly sele
 - The player can play the game again by running the python word_guessing_game.py command again.
 
 # Example
-`        ---Word Guessing Game---
+```        ---Word Guessing Game---
 You have 10 attempts to guess the word correctly.
 Hint: It is red in color!
 The word is of 6 letters.
@@ -34,7 +34,7 @@ t o _ a t o
 You have 5 attempts left.
 Guess a letter: m
 t o m a t o
-You win! Your word was tomato`
+You win! Your word was tomato```
 
 # Contributing
 Contributions are welcome! Here are some ways you can contribute:
