@@ -34,7 +34,8 @@ t o _ a t o
 You have 5 attempts left.
 Guess a letter: m
 t o m a t o
-You win! Your word was tomato```
+You win! Your word was tomato
+```
 
 # Contributing
 Contributions are welcome! Here are some ways you can contribute:
