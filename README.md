@@ -1,15 +1,14 @@
-# Word-Guessing-Game
+# Word Guessing Game
 This is a simple command-line game where the player has to guess a randomly selected word within 10 attempts. The game provides a hint about the word, and the player can guess a letter at a time. If the guessed letter is present in the word, the game reveals its position(s) in the word; otherwise, the game keeps track of the wrong guesses. The game ends if the player guesses the entire word correctly within 10 attempts or runs out of attempts.
 
-# Usage
-- The game will provide a hint about the word.
-- The player has to guess a letter at a time and press Enter.
-- If the guessed letter is present in the word, the game will reveal its position(s) in the word.
-- If the guessed letter is not present in the word, the game will keep track of the wrong guesses.
-- The game ends if the player guesses the entire word correctly within 10 attempts or runs out of attempts.
-- The player can play the game again by running the python word_guessing_game.py command again.
+## How to Play
 
-# Example
+1.  **Introduction**: Upon starting the game, you'll be greeted with an introduction and a hint about the word to be guessed.
+2.  **Guessing**: You have 10 attempts to guess the word correctly. Input a letter to make your guess.
+3.  **Feedback**: If your guessed letter is correct, it will reveal its positions in the word. If it's wrong, it'll be added to the wrong guesses list.
+4.  **Win or Lose**: The game continues until you correctly guess the word or run out of attempts.
+
+## Example
 ```        ---Word Guessing Game---
 You have 10 attempts to guess the word correctly.
 Hint: It is red in color!
@@ -37,11 +36,22 @@ t o m a t o
 You win! Your word was tomato
 ```
 
-# Contributing
-Contributions are welcome! Here are some ways you can contribute:
-- Report bugs and give feedback.
-- Suggest new features or enhancements.
-- Write code and fix issues.
+## Requirements
 
-# License
-This project is licensed under the MIT License. See the LICENSE file for details.
+-   Python 3.x
+
+## Getting Started
+
+1.  Ensure Python is installed on your system.
+2.  Clone or download this repository to your local machine.
+3.  Run the `word_guessing_game.py` file using a Python interpreter.
+
+## Contributing
+
+We welcome contributions to enhance the game! Feel free to add new features, improve the user interface, or optimize the code. If you encounter issues or have suggestions, please open an issue in the repository.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Let the guessing begin! 🎉
